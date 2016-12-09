@@ -10,3 +10,10 @@ Pull in changes
               
 View remote address
       git remote -v
+
+Fork from other repo using GUI on github and then clone in CLI
+      git clone <URLFROMGITHUB>
+      
+Connect to original repository
+      git remote add upstream <urlfromgithub>
+      
