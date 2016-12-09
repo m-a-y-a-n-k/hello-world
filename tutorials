@@ -1,3 +1,28 @@
+Check if git is installed
+      git -version
+
+Create repository
+
+      mkdir <reponame>
+      cd <reponame>
+      git init
+      
+Add file to local repository
+      touch <filename>
+      git add <filename>            ( to track the files )
+      
+configure username
+      git config -
+
+Check status of git
+      git status
+      
+See changes made to files
+      git diff
+      
+Save the changes with a short message
+      git commit -m "commit message"
+
 Add a remote connection
       git remote add origin <URLFROMGITHUB>
       
