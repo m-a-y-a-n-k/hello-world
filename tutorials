@@ -1,0 +1,12 @@
+Add a remote connection
+      git remote add origin <URLFROMGITHUB>
+      
+Push work to your remote
+      git push origin master
+              <remote><branch> 
+Pull in changes
+      git pull origin master
+              <remote><branch>
+              
+View remote address
+      git remote -v
