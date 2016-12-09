@@ -14,7 +14,7 @@ Add file to local repository
 configure username
       git config -
 
-Check status of git
+Check status of git and current branch working on
       git status
       
 See changes made to files
@@ -42,3 +42,14 @@ Fork from other repo using GUI on github and then clone in CLI
 Connect to original repository
       git remote add upstream <urlfromgithub>
       
+Create a new branch
+      git branch <BRANCHNAME>
+
+Switch onto new branch
+      git checkout <BRANCHNAME>      
+
+Rename a branch currently working on
+      git branch -m <NEWBRANCHNAME>
+
+LIst all branches
+      git branch
